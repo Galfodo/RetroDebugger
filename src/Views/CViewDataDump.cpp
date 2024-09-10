@@ -106,7 +106,7 @@ CViewDataDump::CViewDataDump(const char *name, float posX, float posY, float pos
 	renderDataWithColors = false;
 
 	//
-	AddLayoutParameter(new CLayoutParameterFloat("Font Size", &fontSize));
+	AddLayoutParameter(new CLayoutParameterFontSize("Font Size", &fontSize));
 	AddLayoutParameter(new CLayoutParameterInt("Bytes per line", &numberOfBytesPerLine));
 	AddLayoutParameter(new CLayoutParameterBool("Characters ", &showDataCharacters));
 	AddLayoutParameter(new CLayoutParameterBool("Character graphics", &showCharacters));

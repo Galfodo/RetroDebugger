@@ -17,7 +17,7 @@ CViewC64ScreenViewfinder::CViewC64ScreenViewfinder(const char *name, float posX,
 	// zoomed screen
 	this->zoomedScreenLevel = c64SettingsScreenRasterViewfinderScale;
 
-//	AddLayoutParameter(new CLayoutParameterFloat("Font Size", &fontSize));
+//	AddLayoutParameter(new CLayoutParameterFontSize("Font Size", &fontSize));
 
 	this->SetPosition(posX, posY, posZ, sizeX, sizeY);
 }

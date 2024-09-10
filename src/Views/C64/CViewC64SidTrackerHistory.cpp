@@ -52,7 +52,7 @@ CViewC64SidTrackerHistory::CViewC64SidTrackerHistory(const char *name, float pos
 	
 	this->font = viewC64->fontDisassembly;
 	fontSize = 9;
-	AddLayoutParameter(new CLayoutParameterFloat("Font Size", &fontSize));
+	AddLayoutParameter(new CLayoutParameterFontSize("Font Size", &fontSize));
 
 	CSlrFont *fontButton = viewC64->fontCBMShifted;
 	float fontScale = 1.8;

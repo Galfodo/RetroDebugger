@@ -38,7 +38,7 @@ CViewC64StateVIC::CViewC64StateVIC(const char *name, float posX, float posY, flo
 	previousIsLockedStateFrameNum = 0;
 
 	fontSize = 7.0f;
-	AddLayoutParameter(new CLayoutParameterFloat("Font Size", &fontSize));
+	AddLayoutParameter(new CLayoutParameterFontSize("Font Size", &fontSize));
 
 	fontBytes = viewC64->fontDisassembly;
 	

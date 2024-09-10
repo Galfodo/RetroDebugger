@@ -110,7 +110,7 @@ CViewAtariStatePOKEY::CViewAtariStatePOKEY(const char *name, float posX, float p
 
 	fontBytes = viewC64->fontDisassembly;
 	fontSize = 7.0f;
-	AddLayoutParameter(new CLayoutParameterFloat("Font Size", &fontSize));
+	AddLayoutParameter(new CLayoutParameterFontSize("Font Size", &fontSize));
 
 	showRegistersOnly = false;
 	editHex = new CGuiEditHex(this);

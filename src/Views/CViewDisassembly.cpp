@@ -115,7 +115,7 @@ CViewDisassembly::CViewDisassembly(const char *name, float posX, float posY, flo
 //	jumpOpcodes.insert({0x6C, 0x6C});	// JMP ($aabb)
 
 
-	AddLayoutParameter(new CLayoutParameterFloat("Font Size", &fontSize));
+	AddLayoutParameter(new CLayoutParameterFontSize("Font Size", &fontSize));
 	AddLayoutParameter(new CLayoutParameterBool("Hex codes", &showHexCodes));
 	AddLayoutParameter(new CLayoutParameterBool("Code cycles", &showCodeCycles));
 	AddLayoutParameter(new CLayoutParameterBool("Show labels", &showLabels));

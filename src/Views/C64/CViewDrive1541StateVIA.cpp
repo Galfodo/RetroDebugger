@@ -36,7 +36,7 @@ CViewDrive1541StateVIA::CViewDrive1541StateVIA(const char *name, float posX, flo
 	isVertical = false;
 
 	fontSize = 7.0f;
-//	AddLayoutParameter(new CLayoutParameterFloat("Font Size", &fontSize));
+//	AddLayoutParameter(new CLayoutParameterFontSize("Font Size", &fontSize));
 	AddLayoutParameter(new CLayoutParameterBool("Vertical layout", &isVertical));
 	AddLayoutParameter(new CLayoutParameterBool("Show Drive led", &renderDriveLED));
 	

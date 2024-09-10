@@ -17,7 +17,7 @@ CViewBaseStateCPU::CViewBaseStateCPU(const char *name, float posX, float posY, f
 
 	this->font = viewC64->fontDisassembly;
 	fontSize = 7.0f;
-	AddLayoutParameter(new CLayoutParameterFloat("Font Size", &fontSize));
+	AddLayoutParameter(new CLayoutParameterFontSize("Font Size", &fontSize));
 
 	this->editingCpuRegisterIndex = -1;
 	

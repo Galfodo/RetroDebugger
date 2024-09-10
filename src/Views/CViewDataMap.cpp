@@ -128,7 +128,7 @@ CViewDataMap::CViewDataMap(const char *name, float posX, float posY, float posZ,
 //	UpdateWholeMap();
 	
 	/// TODO:
-//	AddLayoutParameter(new CLayoutParameterFloat("Font Size", &fontSize));
+//	AddLayoutParameter(new CLayoutParameterFontSize("Font Size", &fontSize));
 
 	
 	SYS_StartThread(this);

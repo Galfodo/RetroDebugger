@@ -35,7 +35,7 @@ CViewAtariStateGTIA::CViewAtariStateGTIA(const char *name, float posX, float pos
 	imGuiNoScrollbar = true;
 
 	fontSize = 7.0f;
-	AddLayoutParameter(new CLayoutParameterFloat("Font Size", &fontSize));
+	AddLayoutParameter(new CLayoutParameterFontSize("Font Size", &fontSize));
 
 	fontBytes = viewC64->fontDisassembly;
 	

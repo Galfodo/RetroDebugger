@@ -24,7 +24,7 @@ CViewEmulationState::CViewEmulationState(const char *name, float posX, float pos
 	imGuiNoScrollbar = true;
 
 	fontSize = 10.0f;
-	AddLayoutParameter(new CLayoutParameterFloat("Font Size", &fontSize));
+	AddLayoutParameter(new CLayoutParameterFontSize("Font Size", &fontSize));
 
 	fontBytes = viewC64->fontDisassembly;
 	this->SetPosition(posX, posY, posZ, sizeX, sizeY);

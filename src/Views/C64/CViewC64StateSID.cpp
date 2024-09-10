@@ -45,7 +45,7 @@ CViewC64StateSID::CViewC64StateSID(const char *name, float posX, float posY, flo
 
 	fontBytes = viewC64->fontDisassembly;
 	fontBytesSize = 7.0f;
-//	AddLayoutParameter(new CLayoutParameterFloat("Font Size", &fontBytesSize));
+//	AddLayoutParameter(new CLayoutParameterFontSize("Font Size", &fontBytesSize));
 
 	oneSidStateSizeX = 170.0f;
 	
