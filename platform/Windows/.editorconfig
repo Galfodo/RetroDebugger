@@ -1,0 +1,7 @@
+# Top-most EditorConfig file
+root = true
+
+[*.cpp, *.h] # For C++ files
+indent_style = tab      # Use tabs instead of spaces
+indent_size = 4
+tab_width = 4
